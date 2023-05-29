@@ -8,42 +8,29 @@ namespace Logical_Programs
         {
             Console.WriteLine("------Logical Programs-----");
 
-            // Fibonnaci Series
-            /*Fibonacci_Series fs = new Fibonacci_Series();
+            Console.WriteLine("Choose an option");
+            Console.WriteLine("1. Fibonnaci Series");
+            Console.WriteLine("2. Perfect Number");
+            Console.WriteLine("3. Prime Number");
+            Console.WriteLine("4. Reverse Number");
+            Console.WriteLine("5. Coupon Number");
+            Console.WriteLine("6. Simulate Stopwatch");
+            Console.WriteLine("7. Exit");
 
-            fs.FibonacciSeries();*/
+            Console.WriteLine("=> ");
+            int option = Convert.ToInt32(Console.ReadLine());
 
-            // Perfect Number
+            switch (option)
+            {
+                case 1:
+                    Fibonacci_Series fs = new Fibonacci_Series();
+                    fs.FibonacciSeries();
+                    break;
+                default:
+                    Console.WriteLine("Enter valid option.");
+                    break;
+            }
 
-            /*Perfect_Number pn = new Perfect_Number();
-
-            pn.PerfectNumber();*/
-
-            // Prime Number
-
-            /*
-             * Prime_Number prime = new Prime_Number();
-             * prime.PrimeNumber();
-            */
-
-            // Reverse a number
-
-            /*
-             * Reverse_Number rn = new Reverse_Number();
-             * rn.ReverseNumber();
-            */
-
-            // Coupon Numbers
-
-            /*
-             * Coupon_Numbers coupon = new Coupon_Numbers();
-             * coupon.CouponNumbers();
-            */
-
-            // Simulate Stopwatch Program
-
-            Simulate_Stopwatch ss = new Simulate_Stopwatch();
-            ss.SimulateStopwatch();
         }
     }
 }
