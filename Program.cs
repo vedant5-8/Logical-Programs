@@ -28,9 +28,16 @@ namespace Logical_Programs
 
             // Reverse a number
 
-            Reverse_Number rn = new Reverse_Number();
+            /*
+             * Reverse_Number rn = new Reverse_Number();
+             * rn.ReverseNumber();
+            */
 
-            rn.ReverseNumber();
+            // Coupon Numbers
+
+            Coupon_Numbers coupon = new Coupon_Numbers();
+
+            coupon.CouponNumbers();
 
         }
     }
