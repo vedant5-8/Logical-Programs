@@ -35,10 +35,15 @@ namespace Logical_Programs
 
             // Coupon Numbers
 
-            Coupon_Numbers coupon = new Coupon_Numbers();
+            /*
+             * Coupon_Numbers coupon = new Coupon_Numbers();
+             * coupon.CouponNumbers();
+            */
 
-            coupon.CouponNumbers();
+            // Simulate Stopwatch Program
 
+            Simulate_Stopwatch ss = new Simulate_Stopwatch();
+            ss.SimulateStopwatch();
         }
     }
 }
