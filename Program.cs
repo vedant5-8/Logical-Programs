@@ -21,9 +21,16 @@ namespace Logical_Programs
 
             // Prime Number
 
-            Prime_Number prime = new Prime_Number();
+            /*
+             * Prime_Number prime = new Prime_Number();
+             * prime.PrimeNumber();
+            */
 
-            prime.PrimeNumber();
+            // Reverse a number
+
+            Reverse_Number rn = new Reverse_Number();
+
+            rn.ReverseNumber();
 
         }
     }
