@@ -7,6 +7,12 @@ namespace Logical_Programs
         static void Main(string[] args)
         {
             Console.WriteLine("------Logical Programs-----");
+
+            // Fibonnaci Series
+            Fibonacci_Series fs = new Fibonacci_Series();
+
+            fs.FibonacciSeries();
+
         }
     }
 }
