@@ -15,9 +15,15 @@ namespace Logical_Programs
 
             // Perfect Number
 
-            Perfect_Number pn = new Perfect_Number();
+            /*Perfect_Number pn = new Perfect_Number();
 
-            pn.PerfectNumber();
+            pn.PerfectNumber();*/
+
+            // Prime Number
+
+            Prime_Number prime = new Prime_Number();
+
+            prime.PrimeNumber();
 
         }
     }
