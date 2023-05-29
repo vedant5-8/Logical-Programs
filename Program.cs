@@ -9,9 +9,15 @@ namespace Logical_Programs
             Console.WriteLine("------Logical Programs-----");
 
             // Fibonnaci Series
-            Fibonacci_Series fs = new Fibonacci_Series();
+            /*Fibonacci_Series fs = new Fibonacci_Series();
 
-            fs.FibonacciSeries();
+            fs.FibonacciSeries();*/
+
+            // Perfect Number
+
+            Perfect_Number pn = new Perfect_Number();
+
+            pn.PerfectNumber();
 
         }
     }
